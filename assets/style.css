@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Disable overflow for both horizontal and vertical */
+}
+
+.app-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;     /* Centers horizontally */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent overflow in the container */
+}
+
+.graph-container {
+    width: 100%; 
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Disable any overflow */
+}
+
